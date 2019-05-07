@@ -3,11 +3,13 @@
     "strict": true,
     "target": "es6",
     "module": "commonjs",
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "sourceMap": true,
-    "jsx": "react"
+    "types": [
+      "mocha",
+      "chai"
+    ]
   },
   "exclude": [
     "node_modules"

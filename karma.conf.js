@@ -8,7 +8,7 @@ module.exports = function (config) {
 
         // frameworks to use
         // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-        frameworks: ['jasmine'],
+        frameworks: ['mocha'],
 
         webpack: webpackConfig,
 
@@ -36,9 +36,6 @@ module.exports = function (config) {
         // available reporters: https://npmjs.org/browse/keyword/karma-reporter
         reporters: ['progress'],
 
-
-        // web server port
-        port: 9876,
 
 
         // enable / disable colors in the output (reporters and logs)
