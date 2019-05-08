@@ -2,9 +2,6 @@
   "scripts": {
     "test": "karma start karma.conf.js"
   },
-  "dependencies": {
-    "lodash": "4.17.10"
-  },
   "devDependencies": {
     "@types/chai": "4.1.7",
     "@types/mocha": "5.2.6",
